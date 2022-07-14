@@ -111,7 +111,8 @@ line-height: 1.5;}
 
     /*** @media query ***/
 
-@media(max-width:1000px) {.icon {color:#4fbdba;
+@media(max-width:1000px) { .navbar-nav {position: static;}
+      .icon {color:#4fbdba;
 margin-bottom: 20px}
 
 .icon:hover {color: #35858b;}
