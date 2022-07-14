@@ -1,0 +1,130 @@
+
+      /*** Body ***/
+
+h1, h2, h3 {font-family: montserrat-bold;}
+
+h3 {font-family: montserrat-bold;
+font-size: 1.5rem;}
+.container-fluid {padding: 3% 15% 7%;}
+
+body {text-align: center;}
+
+p {color: #8f8f8f;}
+
+/** container **/
+.container {padding: 7% 15%;}
+
+/** Sections **/
+.coloured-section { background-color: #ff4c68;
+color: #fff;}
+.white-section { background-color: #fff;}
+
+        /** navbar **/
+
+.navbar {padding: 0 0 4.5rem 0;}
+
+        /** navbar-brand **/
+
+.navbar-brand {font-family: Ubuntu;
+font-size: 2.5rem;
+font-weight: bold;}
+
+/** navbar-nav **/
+
+
+       /** nav-item **/
+.nav-item {padding: 0 18px;}
+.nav-link {font-size: 1.2rem;
+font-family: montserrat-light;}
+
+
+
+   /*** Title Section ***/
+
+   #title {text-align: left;}
+     #title .container-fluid {padding: 3% 15% 7%;}
+
+
+   /** title-image **/
+.title-img {width: 23%;
+  transform: rotate(25deg);
+position: absolute;}
+
+/** Download-Buttons **/
+
+.download-button {margin: 5% 3% 5% 0;}
+
+  /** Headings **/
+  .big-heading {font-family: Montserrat-black;
+  font-size: 3.5rem;
+  line-height: 1.5;}
+
+/*** Features Section ***/
+
+#features { position: relative;
+z-index: 1;}
+.feature-box { padding: 4.5%;}
+
+   /** features icon **/
+.icon {color:#ef8172;
+margin-bottom: 20px}
+.icon:hover {color: #ff4c68;}
+
+   /*** Testimonials Section ***/
+
+#testimonials { background-color: #ef8172;
+  color: #fff;}
+.testimonial-text { font-size: 2.5rem;
+line-height: 1.5;}
+.testimonials-img{border-radius: 70%;
+width:15%;
+margin: 20px auto 20px auto;}
+   /** testimonials carousel **/
+.carousel-item {padding: 7% 15%;}
+
+  /*** Press Section ***/
+
+#press {background-color: #ef8172;
+padding-bottom: 30px;}
+.press-icon {width:15%;
+margin: 20px 20px 50px;}
+
+    /*** Pricing Section ***/
+
+#pricing {padding: 100px;}
+.pricing-heading { font-size: 2.5rem;
+line-height: 1.5;}
+.pricing-col {padding: 3% 2%;}
+.price-text { font-size: 2.5rem;
+line-height: 1.5;}
+  /*** CTA Section ***/
+
+
+    /*** Footer Section ***/
+
+    .footer-anchor {text-decoration: none; color: #000;}
+
+    /** footer-icon **/
+.footer-icon {margin: 15px 10px;}
+
+    /*** @media query ***/
+
+@media(max-width:1000px) {.icon {color:#4fbdba;
+margin-bottom: 20px}
+
+
+.icon:hover {color: #35858b;}
+
+#title { text-align: center;}
+#press {background-color: #4fbdba;}
+
+ .coloured-section {background-color: #35858b;
+  text-align: center;}
+
+#testimonials {background: #4fbdba;}
+  .title-img {
+  position: static;
+  transform: rotate(0);
+width: 50%;}
+
+}
