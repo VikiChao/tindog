@@ -31,7 +31,7 @@ font-weight: bold;}
 
 /** navbar-nav **/
 .navbar-nav {position: relative;
-left:50%;}
+left:55%;}
 
 
        /** nav-item **/
@@ -111,9 +111,9 @@ line-height: 1.5;}
 
 /*** @media query ***/
 
-@media(max-width:1028px) {.icon {color:#4fbdba;
+@media(max-width:1000px) {.icon {color:#4fbdba;
 margin-bottom: 20px}
-.navbar-nav {position:relative;}
+
 .icon:hover {color: #35858b;}
 
 #title { text-align: center;}
